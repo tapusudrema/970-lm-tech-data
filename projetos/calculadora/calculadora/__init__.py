@@ -1,9 +1,9 @@
 #init
-
-
+import funcoes
 def calcule():
     a = input('primeiro número: ')
     b = input('segundo número: ')
+
     operacao = ''
     operacoes1 = ['soma', 'subtracao', 'divisao', 'multiplicacao']
     operacoes2 = ['+', '-', '/', '*']
