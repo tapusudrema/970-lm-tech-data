@@ -1,5 +1,4 @@
 #aqui meteré las funciones
-<<<<<<<<< Temporary merge branch 1
 def soma(a,b):
     if type(a) in [int, float] and type(b) in [int, float]:
         return a + b
