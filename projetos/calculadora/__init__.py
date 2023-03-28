@@ -26,7 +26,7 @@ def calcule():
 
 def metodo1(a, b):
     operacao = ''
-    print('Usando listas e eval')
+    print('Usando listas e eval():')
     operacoes1 = ['soma', 'subtracao', 'divisao', 'multiplicacao']
     operacoes2 = ['+', '-', '/', '*']
     while operacao not in operacoes1 + operacoes2:
@@ -38,7 +38,7 @@ def metodo1(a, b):
 
 
 def metodo2(a, b, dictio):
-    print('Usando dicionário')
+    print('Usando dicionário:')
     operacao = ''
     while operacao not in dictio.keys():
         operacao = input(
