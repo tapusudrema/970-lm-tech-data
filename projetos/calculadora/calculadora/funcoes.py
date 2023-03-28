@@ -1,1 +1,1 @@
-#otra
+#aqui meteré las funciones
