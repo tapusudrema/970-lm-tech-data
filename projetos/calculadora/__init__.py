@@ -1,14 +1,10 @@
 #init
 from funcoes import tipos_certos, soma, subtracao, multiplicacao, divisao
 dictFuncoes = {
-    'soma': soma,
-    'subtracao': subtracao,
-    'divisao': divisao,
-    'multiplicacao': multiplicacao,
-    '+': soma,
-    '-': subtracao,
-    '/': divisao,
-    '*': multiplicacao
+    'soma': soma, '+': soma,
+    'subtracao': subtracao, '-': subtracao,
+    'divisao': divisao, '/': divisao,
+    'multiplicacao': multiplicacao, '*': multiplicacao
 }
 def calcule():
     a = input('primeiro número: ')
