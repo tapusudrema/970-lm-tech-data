@@ -13,7 +13,6 @@ def soma(a, b):
         return a + b
 
 
-
 def subtracao(a, b):
     if tipos_certos(a, b):
         return a - b
