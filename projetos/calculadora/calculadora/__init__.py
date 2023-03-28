@@ -1,5 +1,6 @@
 #init
 def calcule():
+
     a = input('primeiro número: ')
     b = input('segundo número: ')
     try:
