@@ -1,5 +1,5 @@
 #init
-import funcoes
+from funcoes import tipos_certos, soma, subtracao, multiplicacao, divisao
 def calcule():
     a = input('primeiro número: ')
     b = input('segundo número: ')
@@ -7,7 +7,7 @@ def calcule():
         a, b = float(a), float(b)
         validacao = True
     except:
-        validacao = funcoes.tipos_certos(a, b)
+        validacao = tipos_certos(a, b)
 
     if validacao:
         operacao = ''
@@ -16,7 +16,7 @@ def calcule():
         while operacao not in operacoes1 + operacoes2:
             operacao = input('Qual operação? Opções válidas: soma, subtracao, divisao, multiplicacao, +, -, /, * ').strip().lower()
         if operacao in operacoes2:
-            operacao = 'funcoes.' + operacoes1[operacoes2.index(operacao)]
+            operacao = operacoes1[operacoes2.index(operacao)]
         print(eval(operacao)(a, b))
         print('fim.')
 
